@@ -10,7 +10,7 @@ public class HudExample extends HudElement {
     /**
      * The {@code name} parameter should be in kebab-case.
      */
-    public static final HudElementInfo<HudExample> INFO = new HudElementInfo<>(SeppeAutoBottleAddon.HUD_GROUP, "AutoOminousBottle", "AutoOminousBottle hud wich is nothing", HudExample::new);
+    public static final HudElementInfo<HudExample> INFO = new HudElementInfo<>(SeppeAutoBottleAddon.HUD_GROUP, "AutoOminousBottle", "AutoOminousBottle hud wih is nothing", HudExample::new);
 
     public HudExample() {
         super(INFO);
