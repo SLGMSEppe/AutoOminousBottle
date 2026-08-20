@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "addon-template",
+  "version": "${version}",
+  "name": "AutoOminousBottle",
+  "description": "Seppe's Auto Ominous Bottle Drinker.",
+  "authors": [
+    "sen_sep"
+  ],
+  "contact": {
+    "repo": "https://github.com/SLGMSEppe/AutoOminousBottle"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.example.addon.SeppeAutoBottleAddon"
+    ]
+  },
+  "mixins": [
+    "addon-template.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}"],
+    "meteor-client": "*"
+  }
+}
